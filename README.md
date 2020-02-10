@@ -87,3 +87,4 @@ I'm still reading how they processed, and i'll try later on to reproduce the res
 
 
 2. On the second week:
+
