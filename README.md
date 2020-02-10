@@ -88,3 +88,9 @@ I'm still reading how they processed, and i'll try later on to reproduce the res
 
 2. On the second week:
 
+    Monday 10/02/2020     | Process of Data                   | 
+
+Data processing comprised the following steps: quality sequence extraction, decontamination, mapping with Tophat, and gene annotation with Cufflinks.
+
+In more detail, we used a cutoff value of 5 in the ‘remove reads containing color quality below this value’ parameter selection box to select quality reads. Sequence reads containing vector sequences or homopolymers (≥ 9 bp) were discarded. Quality reads were mapped to hg19 with Tophat originally designed for short read alignment for RNA-Seq experiments. We allowed two mismatches for each 35 bp read. ‘Minimum isoform fraction: filter out junctions supported by too few alignments’ was set to zero, and all other parameters were retained as default. Sequence reads with ≤ 10 hits were used and subjected to Cufflinks for annotation. To maximize sensitivity, both ‘min-isoform fraction’ and ‘pre-MRNA fraction’ were set to 0.0, and the parameter for ‘max-intron-length’ was changed from 300,000 to 500,000. To exclude singleton transfrags (transcribed fragments), we changed ‘min-frags-per-transfrag’ from 10 to 2 in program coding. All the other Cufflinks parameters were retained as default.
+
