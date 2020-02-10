@@ -32,6 +32,7 @@ It is usually the case for RNA sequencing where there is some very highly abunda
 ]]]]]]]]]] 
 
   Tuesday 04/02/2020    | Galaxy per base quality score Fastqc         | 
+
 The explanation of the quality score is similar to the one we had during our classes with Mr Coornaert, although here there are some details that helps in having a better understanding of how it works, and so it will allows people to do better analysis.
 
 These details are :
@@ -70,6 +71,7 @@ This leads to a decrease in quality scores at the 3’ end of the read.
 
 
 Wednesday 05/02/2020  | Articles reading and understanding of Galaxy | 
+
 - 1-s2.0-S0092867415013537-main.pdf
 
 - 2018_Svenson-scRNA-seq.pdf
