@@ -105,7 +105,10 @@ Sequence reads with ≤ 10 hits were used and subjected to Cufflinks for annotat
 To exclude singleton transfrags (transcribed fragments), we changed ‘min-frags-per-transfrag’ from 10 to 2 in program coding. All the other Cufflinks parameters were retained as default.
 ]
 
-Tuesday 11/02/2020 	|Presentation of a PhD student 	|
+   Tuesday 11/02/2020 	|Presentation of a PhD student 	|
 
 The subject of the PhD student was on the property of essential oils to prevent the growth of bacteria. The presentation was done in Slovakian, so i didn't understood everything she said. I'll have to read her article, which can be freely accessed through google scholar.
 
+   Tuesday 11/02/2020 	|Presentation of the methods in this article: "High-throughput targeted long-read single cell sequencing reveals the clonal and transcriptional landscape of lymphocytes"|
+
+Lubos just asked me to prepare a brief summary of this article, and to present it in a few days.
