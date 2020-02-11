@@ -2,9 +2,9 @@
 
 1. On the first week:
 
-Few notes of interest, with detailled explanation coming from the Galaxy pipeline tutorial
+Few notes of interest, with detailled explanation coming from the Galaxy pipeline tutorial (will have to source everything into []).
 
-Tuesday 04/02/2020    | Galaxy Sequence duplication level Fastqc     | [[[[[[[[[[[ 
+Tuesday 04/02/2020    | Galaxy Sequence duplication level Fastqc     | (galaxy tutorial)[[[[[[[[[[[ 
 
 In a diverse library most sequences will occur only once in the final set. A low level of duplication may indicate a very high level of coverage of the target sequence, but a high level of duplication is more likely to indicate some kind of enrichment bias.
 
@@ -36,7 +36,7 @@ It is usually the case for RNA sequencing where there is some very highly abunda
 The explanation of the quality score is similar to the one we had during our classes with Mr Coornaert, although here there are some details that helps in having a better understanding of how it works, and so it will allows people to do better analysis.
 
 These details are :
-[[[[[[[ Per base sequence quality score
+(galaxy tutorial)[[[[[[[ Per base sequence quality score
 
     Signal decay
 
@@ -68,7 +68,7 @@ This leads to a decrease in quality scores at the 3’ end of the read.
         Read 2 failure
 
     With such data, the sequencing facility should be contacted for discussion. Often, a resequencing then is needed (and from our experience also offered by the company).
-
+]]]]]]]]]]]]
 
 Wednesday 05/02/2020  | Articles reading and understanding of Galaxy | 
 
@@ -92,6 +92,8 @@ I'm still reading how they processed, and i'll try later on to reproduce the res
 
     Monday 10/02/2020     | Process of Data                   | 
 
+(From Single cell transcriptome analysis of MCF-7 reveals consistently and inconsistently expressed gene groups each associated with distinct cellular localization and functions)
+[
 Data processing comprised the following steps: quality sequence extraction, decontamination, mapping with Tophat, and gene annotation with Cufflinks.
 
 In more detail, we used a cutoff value of 5 in the ‘remove reads containing color quality below this value’ parameter selection box to select quality reads. Sequence reads containing vector sequences or homopolymers (≥ 9 bp) were discarded. 
@@ -101,4 +103,5 @@ Quality reads were mapped to hg19 with Tophat originally designed for short read
 Sequence reads with ≤ 10 hits were used and subjected to Cufflinks for annotation. To maximize sensitivity, both ‘min-isoform fraction’ and ‘pre-MRNA fraction’ were set to 0.0, and the parameter for ‘max-intron-length’ was changed from 300,000 to 500,000. 
 
 To exclude singleton transfrags (transcribed fragments), we changed ‘min-frags-per-transfrag’ from 10 to 2 in program coding. All the other Cufflinks parameters were retained as default.
+]
 
