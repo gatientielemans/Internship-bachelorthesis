@@ -54,11 +54,11 @@ This leads to a decrease in quality scores at the 3’ end of the read.
 
     Overclustering
 
-    Sequencing facilities can overcluster the flow cells. It results in small distances between clusters and an overlap in the signals. Two clusters can be interpreted as a single cluster with mixed fluorescent signals being detected, decreasing signal purity. It generates lower quality scores across the entire read.
+   Sequencing facilities can overcluster the flow cells. It results in small distances between clusters and an overlap in the signals. Two clusters can be interpreted as a single cluster with mixed fluorescent signals being detected, decreasing signal purity. It generates lower quality scores across the entire read.
 
     Instrumentation breakdown
 
-    Some issues can occasionally happen with the sequencing instruments during a run. Any sudden drop in quality or a large percentage of low quality reads across the read could indicate a problem at the facility. Some examples of such issues (expalining graph in the tutorial, will need to cite it as a source):
+   Some issues can occasionally happen with the sequencing instruments during a run. Any sudden drop in quality or a large percentage of low quality reads across the read could indicate a problem at the facility. Some examples of such issues (expalining graph in the tutorial, will need to cite it as a source):
 
         Manifold burst
 
@@ -67,7 +67,7 @@ This leads to a decrease in quality scores at the 3’ end of the read.
 
         Read 2 failure
 
-    With such data, the sequencing facility should be contacted for discussion. Often, a resequencing then is needed (and from our experience also offered by the company).
+   With such data, the sequencing facility should be contacted for discussion. Often, a resequencing then is needed (and from our experience also offered by the company).
 ]]]]]]]]]]]]
 
 Wednesday 05/02/2020  | Articles reading and understanding of Galaxy | 
